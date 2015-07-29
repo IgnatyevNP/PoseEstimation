@@ -1,0 +1,9 @@
+Errors:
+  StringMap resp;
+
+  resp["0"] = "Not enough model points";
+  resp["1"] = "Model not Accepted yet";
+  resp["2"] = "\"" + key + "\": the ponts key is not recognized";
+  resp["3"] = "\"" + cmd + "\": the message is not recognized";
+
+  srv->sendCommandTo(socket, "error", resp);

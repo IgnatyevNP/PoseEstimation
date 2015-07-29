@@ -1,0 +1,10 @@
+  qDebug() << "C++ Style Debug Message";
+  qDebug( "C Style Debug Message" );
+
+  qWarning() << "C++ Style Warning Message";
+  qWarning( "C Style Warning Message" );
+
+  qCritical() << "C++ Style Critical Error Message";
+  qCritical( "C Style Critical Error Message" );
+
+  qFatal( "C Style Fatal Error Message" );
